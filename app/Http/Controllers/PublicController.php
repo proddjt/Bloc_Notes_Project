@@ -18,20 +18,8 @@ class PublicController extends Controller
         return view('welcome', ['article1' => $article1, 'article2' => $article2, 'article3' => $article3, 'article4' => $article4]);
     }
 
-    public function articles(){
-        return view('articles', ['articleList' => $this->articles]);
-    }
-
-    public function article($id){
-        foreach ($this->articles as $article) {
-            if ($article['id'] == $id){
-                return view ('article', ['article' => $article]);
-            }
-        }
-    }
-
     public function contacts(){
-        return view('contacts', ['articleList' => $this->articles]);
+        return view('contacts');
     }
 
     public function contactRequestSubmit(Request $request){

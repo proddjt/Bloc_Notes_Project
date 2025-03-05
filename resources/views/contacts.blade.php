@@ -7,11 +7,11 @@
         <div class="container-fluid contactSection py-5">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center align-items-center">
-                    <h2 class="text-main display-2 text-uppercase fw-bold">contattaci.</h2>
+                    <h2 class="text-main display-2 text-uppercase fw-bold text-center">contattaci.</h2>
                 </div>
             </div>
             <div class="row justify-content-center align-items-center pt-4">
-                <div class="col-6 d-flex justify-content-center align-items-center">
+                <div class="col-12 d-flex justify-content-center align-items-center">
                     <form method="POST" action="{{route('contact-request-submit')}}" class="d-flex flex-column justify-content-center align-items-center myForm px-4 py-3">
                         @csrf
                         <label for="name" class="text-main fw-semibold fs-4">Nome</label>

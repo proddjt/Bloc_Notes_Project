@@ -1,4 +1,4 @@
-<div class="col-4 py-3 d-flex justify-content-center align-items-center articleCard">
+<div class="col-md-4 col-12 py-3 d-flex justify-content-center align-items-center articleCard">
     <div class="row">
         <div class="col-12">
             <h2 class="text-main fw-semibold fs-4 pb-3 m-0">{{$article->title}}</h2>

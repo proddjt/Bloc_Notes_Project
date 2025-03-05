@@ -7,7 +7,7 @@
         <div class="container-fluid contactSection py-5">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center align-items-center">
-                    <h2 class="text-main display-2 text-uppercase fw-bold">CARICA IL TUO ARTICOLO.</h2>
+                    <h2 class="text-main display-2 text-uppercase fw-bold text-center">CARICA IL TUO ARTICOLO.</h2>
                 </div>
             </div>
             <div class="row justify-content-center align-items-center pt-4">
