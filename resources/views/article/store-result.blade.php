@@ -4,10 +4,10 @@
         <div class="row">
             <div class="col-12">
                 @if (session('articleConfirm'))
-                <h2 class="text-main, display-2 fw-bold text-center">{{session('articleConfirm')}}</h2>
+                <h2 class="text-main display-2 fw-bold text-center">{{session('articleConfirm')}}</h2>
                 @endif
                 @if  (session('articleError'))
-                <h2 class="text-main, display-2 fw-bold text-center">{{session('articleError')}}</h2>
+                <h2 class="text-main display-2 fw-bold text-center">{{session('articleError')}}</h2>
                 @endif
             </div>
             <div class="col-12 d-flex justify-content-center align-items-center">

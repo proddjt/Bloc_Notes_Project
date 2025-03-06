@@ -4,10 +4,10 @@
         <div class="row">
             <div class="col-12">
                 @if (session('status'))
-                <h2 class="text-main, display-2 fw-bold text-center">{{session('status')}}</h2>
+                <h2 class="text-main display-2 fw-bold text-center">{{session('status')}}</h2>
                 @endif
                 @if  (session('emailError'))
-                <h2 class="text-main, display-2 fw-bold text-center">{{session('emailError')}}</h2>
+                <h2 class="text-main display-2 fw-bold text-center">{{session('emailError')}}</h2>
                 @endif
             </div>
             <div class="col-12 d-flex justify-content-center align-items-center">
